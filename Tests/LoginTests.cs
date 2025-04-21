@@ -29,6 +29,22 @@ namespace SeleniumTestProject.Tests
             Assert.That(message, Does.Contain("You logged into a secure area!"));
         }
 
+        [TestCase("wronguser", "wrongpassword")]
+        [TestCase("tomsmith", "wrongpassword")]
+        [TestCase("wronguser", "SuperSecretPassword!")]
+        public void InvalidLoginTest(string username, string password)
+        {
+            loginPage.EnterUsername(username);
+            loginPage.EnterPassword(password);
+            loginPage.ClickLogin();
+
+            string message = loginPage.GetFlashMessage();
+            Console.WriteLine($"Tried: {username}/{password} → {message}");
+
+            Assert.That(message, Does.Contain("Your username is invalid!"));
+        }
+
+
         [TearDown]
         public void TearDown()
         {
