@@ -1,4 +1,6 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace SeleniumTestProject.Pages
 {
@@ -38,7 +40,10 @@ namespace SeleniumTestProject.Pages
 
         public string GetFlashMessage()
         {
-            return FlashMessage.Text;
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("flash")));
+            return driver.FindElement(By.Id("flash")).Text;
         }
+
     }
 }

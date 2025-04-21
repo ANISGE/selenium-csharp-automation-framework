@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fa2UKn787ns=",
+  "dgSpecHash": "nplnyESQ8Gk=",
   "success": true,
   "projectFilePath": "C:\\Users\\AnisHassoun\\OneDrive - Global-e\\Desktop\\AutomationTest\\SeleniumTestProject\\SeleniumTestProject\\SeleniumTestProject.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\aspire.hosting.testing\\9.0.0\\aspire.hosting.testing.9.0.0.nupkg.sha512",
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\aspnetcore.healthchecks.uris\\8.0.1\\aspnetcore.healthchecks.uris.8.0.1.nupkg.sha512",
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\AnisHassoun\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\fractions\\7.3.0\\fractions.7.3.0.nupkg.sha512",
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\google.protobuf\\3.28.2\\google.protobuf.3.28.2.nupkg.sha512",
     "C:\\Users\\AnisHassoun\\.nuget\\packages\\grpc.aspnetcore\\2.66.0\\grpc.aspnetcore.2.66.0.nupkg.sha512",

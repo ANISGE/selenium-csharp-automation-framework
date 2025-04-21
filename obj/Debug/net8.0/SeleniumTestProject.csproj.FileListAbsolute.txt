@@ -247,3 +247,4 @@ C:\Users\AnisHassoun\OneDrive - Global-e\Desktop\AutomationTest\SeleniumTestProj
 C:\Users\AnisHassoun\OneDrive - Global-e\Desktop\AutomationTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\net8.0\SeleniumTestProject.genruntimeconfig.cache
 C:\Users\AnisHassoun\OneDrive - Global-e\Desktop\AutomationTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\net8.0\ref\SeleniumTestProject.dll
 C:\Users\AnisHassoun\OneDrive - Global-e\Desktop\AutomationTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\net8.0\SeleniumTestProject.sourcelink.json
+C:\Users\AnisHassoun\OneDrive - Global-e\Desktop\AutomationTest\SeleniumTestProject\SeleniumTestProject\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
